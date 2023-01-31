@@ -16,7 +16,7 @@ export default function RegistroForm() {
   };
 
   const iniciarSesion = async () => {
-    const urlServer = "https://autenticacion-nxmeolu9g-marglodis.vercel.app";
+    const urlServer = "https://autenticacion-jwt.vercel.app";
     const endpoint = "/login";
     const { email, password } = usuario;
     try {

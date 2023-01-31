@@ -5,7 +5,7 @@ export default function Form() {
 
     const registrarUsuario = async () => {
         try {
-            await axios.post("https://autenticacion-nxmeolu9g-marglodis.vercel.app/usuarios", {usuario})
+            await axios.post("https://autenticacion-jwt.vercel.app/usuarios", {usuario})
             alert("Usuario agregado con éxito")
         } catch (error) {
             alert("Algo salió mal")
