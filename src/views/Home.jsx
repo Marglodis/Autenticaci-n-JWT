@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="py-5">
       <h1>
-        WELCOME TO <span className="fw-bold">Soft Jobs</span>
+        Bienvenido <span className="fw-bold">Soft Jobs</span>
       </h1>
       <h4>
         El lugar donde todos los Juniors Developer <br /> podrán obtener

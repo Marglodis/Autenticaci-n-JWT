@@ -13,7 +13,7 @@ export default function RegistroForm() {
   };
 
   const registrarUsuario = async () => {
-    const urlServer = "https://autenticacion-jwt.vercel.app";
+    const urlServer = "https://desafio-jwt-backend-mt.up.railway.app";
     const endpoint = "/usuarios";
     try {
       await axios.post(urlServer + endpoint, usuario);
