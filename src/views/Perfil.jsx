@@ -8,7 +8,7 @@ export default function Home() {
   const [usuario, setUsuarioLocal] = useState({});
 
   const getUsuarioData = async () => {
-    const urlServer = "http://localhost:3000";
+    const urlServer = "https://desafio-jwt-backend-mt.up.railway.app";
     const endpoint = "/usuarios";
     const token = localStorage.getItem("token");
 
